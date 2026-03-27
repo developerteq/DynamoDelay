@@ -1,0 +1,63 @@
+@media (max-width: 1199px) {
+  .propertyContent h3 {
+    font-size: 30px;
+  }
+
+  .location {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .listedBy {
+    font-size: 24px;
+  }
+
+  .reserveBtn {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuredGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .featuredPropertiesSect {
+    padding: 38px 0 50px;
+  }
+
+  .featuredGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .propertyImageWrap img {
+    height: 220px;
+  }
+
+  .propertyContent {
+    padding: 18px;
+  }
+
+  .propertyContent h3 {
+    font-size: 26px;
+  }
+
+  .location {
+    font-size: 16px;
+  }
+
+  .listedBy {
+    font-size: 20px;
+  }
+
+  .reserveBtn {
+    font-size: 24px;
+    padding: 12px 14px;
+  }
+}
